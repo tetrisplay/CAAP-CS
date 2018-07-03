@@ -1,2 +1,7 @@
 Task 6
-I ran the command "git commit --amend" to correct the error. I found the command using google. I reference kb.iu.edu for the command.
+I ran the command "git commit --amend" to correct the error. I found the command using google. I referenced kb.iu.edu for the command.
+Task 7
+SHA: 5004ae345784811d14d6235df40244b85239b9b4 
+commit message: --no-mouse
+Task 8
+I ran the command "git diff" to see what changes I made to my readme.txt file without running a commit. I found this command by googling "changes made to file relative to the latest commit git," and I referenced the website git-scm.com for the command.
