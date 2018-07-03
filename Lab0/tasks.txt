@@ -1,1 +1,2 @@
 Task 6
+I ran the command "git commit --amend" to correct the error. I found the command using google. I reference kb.iu.edu for the command.
