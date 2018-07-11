@@ -1,0 +1,21 @@
+Task 1: 10 points
+Task 2: 3 points
+	--> Name and CNET should be inside the readme.txt file. Not be it's own file.
+	--> Some readme.txt files are empty.
+	--> mispelled directory for final_project
+Task 3: 5 points
+Task 4:	5 points
+Task 5:	5 points
+Task 6: 5 points
+Task 7: 4 points
+	--> Sources? How/where did you find the answer?
+Task 8: 3 points
+	--> Changed the readme.txt file which should not have anything added to it. 
+	The point of the task is to see the differences and be able to revert to the original without any changes.
+	--> "Once you have figured this out, and updated tasks.txt​ accordingly, undo these changes using '​git checkout'"
+Task 9: 5 points
+Task 10: 5 points
+	--> No answer in tasks.txt
+	--> Needed to use "git revert"
+Task 11: 2 points
+Total: 51/60
