@@ -5,10 +5,12 @@
 
 /* Cite code */
 body {
-    background-color:lightgrey;
+    background: linear-gradient(burlywood, white);
 }
+/*gradient obtained from the w3schools website*/
 h1 { 
     font-style: italic;
+    font-family: cursive;
     text-align: center;
 }
 h2 {
@@ -17,41 +19,128 @@ h2 {
 }
 #masthead{
     text-align: center;
+    list-style-type: none;
+    background-color:lightgray;
+    border:3px solid lightsteelblue;
+    font-style:italic;
 }
+#topbit{
+    display:inline;
+    color:black;
+}
+/*display inline code obtained from the w3schools website*/
 #toparea{
     background-color:aliceblue;
-    border:5px solid black;
+    border:5px solid lightsteelblue;
     border-radius:20px;
+    box-shadow: 10px 10px 20px grey;
+    margin-bottom: 10px;
+/*box shadow code obtained from the w3schools website*/
+/*radius code obtained from the w3schools website*/
 }
 #bottomarea{
     background-color:aliceblue;
-    border:5px solid black;
+    border:5px solid lightsteelblue;
     border-radius:20px;
+    box-shadow:10px 10px 20px grey;
 }
+/*box shadow code obtained from the w3schools website*/
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.toptitle{
+#toptitle{
     font-size:50px; 
     text-decoration:underline;
     text-shadow: 3px 5px lightgrey;
 }
+/*text shadow code obtained from the w3schools website*/
 img{
     border-radius: 20px;
     padding:5px;
     border:5px solid black;
 }
-}
 profilemain{
-     position: absolute;
+    position: absolute;
     right: 0px;
     width: 300px;
-    border: 3px solid #73AD21;
     padding: 10px;
 }
+/*code obtained from the w3schools website*/
 hr{
-    border: 1px solid black;
+    border: 4px solid white;
+}
+#contact{
+    column-count: 3;
+}
+/*column count code obtained from the w3schools website*/
+#SocialMediaPlug{
+    border:5px solid lightsteelblue;
+    border-radius:20px;
+    text-align:center;
+    background-color:azure;
+    box-shadow: 10px 10px 20px grey;
+    font-size:30px;
+}
+#ProfileTitle{
+    text-align:center;
+    text-decoration: underline;
+}
+#OurServices{
+    font-size:30px;
+    border: 5px solid lightsteelblue;
+    border-radius:20px;
+    text-align:center;
+    background-color:azure;
+    box-shadow:10px 10px 20px grey;
+    width:150px;
+}
+#AboutUs{
+    font-size:30px;
+    border: 5px solid lightsteelblue;
+    border-radius:20px;
+    text-align:center;
+    background-color:azure;
+    box-shadow:10px 10px 20px grey;
+    width:150px;
+}
+#Contact{
+    font-size:30px;
+    border: 5px solid lightsteelblue;
+    border-radius:20px;
+    text-align:center;
+    background-color:azure;
+    box-shadow:10px 10px 20px grey;
+    width:150px;
+}
+#profile{
+    column-count: 3;
+    align-content: center;
+}
+#topbit{
+    background-color:white;
+    border:1px solid black;
+    border-radius:5px;
+}
+#titlebox{
+    display:inline;
+}
+#Qualifications{
+    border:5px solid black;
+    background-color:whitesmoke;
+    border-radius:20px;
+    padding:5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+#about{
+    
+    border: 5px solid black;
+    background-color:whitesmoke;
+    border-radius:20px;
+    padding:5px;
+    text-align:center;
 }
