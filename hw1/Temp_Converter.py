@@ -1,6 +1,6 @@
 def Temp_Converter():
-    celsius = input("What is the tempurature in celsius")
-    fahrenheit = ((9/5 * celsius) + 32)
+    celsius = float(input("What is the tempurature in celsius: "))
+    fahrenheit = ((9.0/5.0)*celsius)+32.0
     print("The tempurature is", fahrenheit, "degrees fahrenheit.")
 
 Temp_Converter()
