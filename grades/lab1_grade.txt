@@ -1,0 +1,42 @@
+Lab 1
+CAAP CMSC 101, Summer 2018
+
+Required Elements/Attributes
+  Correct use           2/3
+  Used all              3/3
+  Balanced amount       3/3 
+
+Semantic markup
+  Well structured hierarchies    20/20
+
+Correct use of directories/files
+  Links                 4/5
+  In docs directory     5/5 (* should have same directories as given*)
+  Git sites works       10/10
+
+Validation
+  Both pages and stylesheets  17/20
+
+Design/CSS
+  Dynamic screen size    5/5
+  Efficient use of CSS on multiple pages     8/10 (* some content is cut out *)
+  Professional design in both pages  5/5
+  
+
+Code style
+  format         2/3 (* code looks good *)
+  clarity        3/3 (* logic is expressed clearly *)
+  decomposition  3/3 (* problems are factored into sensible subproblems *)
+  efficiency     2/2 (* blatant inefficiencies are avoided *)
+
+_total-score_  92/100
+
+graded by Jose Reyes
+
+Comments:
+- You have to fix the structure of your directories for this lab.
+    --> follow the hierarchy template I gave you in the lab1_resources.
+- You should validate all pages (e.g. profile too)
+- Back button should just have a link to the page, history function can be buggy (e.g. last page wasn't the home page).
+- all content should be in the <body>, nothing goes after it but the </html> tag.
+- Great job, keep practicing!
