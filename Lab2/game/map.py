@@ -9,9 +9,8 @@ class Map(object):
 				'basement' : S.Basement(),
 				'ectoplasm' : S.Ectoplasm(),
 				'hallway' : S.Hallway(),
-                'laundry_room': S.Laundry_Room(),
-                'finished': S.Finished()
-				}
+				'laundry_room': S.Laundry_Room(),
+				'finished': S.Finished()}
 	
 	# initializes to a starting scene
 	def __init__(self, start_scene):
