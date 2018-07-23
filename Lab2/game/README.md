@@ -16,4 +16,8 @@ into your terminal.
 
 Future Directions:
 
-The end/death problem in this game can be resolved. It can also be made more complex. 
+The end/death problem in this game can be resolved. It can also be made more complex.
+
+Secondary Comment:
+
+I tried to push my code. It worked before I submitted it, but now its corrupted. 
