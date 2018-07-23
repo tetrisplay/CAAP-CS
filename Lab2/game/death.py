@@ -1,17 +1,13 @@
-# importing random int maker module
+#GOOD FOR NOW
 from random import randint
 
-# class defines what happens when a player dies.
-# in this case, it has a list of phrases to be displayed
-# randomly, and returns the string 'died' to let the engine know.
 class Death(object):
-	quips = ["You died.  You kinda suck at this.",
-			"Your mom would be proud...",
-			"Such a loser.",
-			"I have a small puppy that's better at this.",
-			"Better luck next time."
-			# raise ValueError ('todo')
+	comments = ["You end up roaming the halls of Campus North forever, constantly wondering if you missed your 8 am Hume class.",
+			"You bumped your head and died. Sorry.",
+			"OH MY GOD ITS THE GHOST OF ROCHAFELLER! You die of fright.",
+			"You accidently get locked into storage. I don't think anyone is going to save you.",
+			"You stub your toe and crash into the vending machines, dieing from your injuries."
 			]
 	def enter(self):
-		print (Death.quips[randint(0, len(self.quips)- 1)])
+		print (Death.comments[randint(0, len(self.comments)- 1)])
 		return 'died'

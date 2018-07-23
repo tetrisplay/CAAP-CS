@@ -1,24 +1,31 @@
-# imports the score class to be used in the leaderboard.
+#GOOD FOR NOW
 from scores import Score
 
-# leaderboard keeps track of top ten highest ranking players
 class Leaderboard(object):
-	size = raise ValueError ('todo')
-	board = raise ValueError ('todo')
+	size = 10
+	board = []
 
-	def __init__(self):
-		for i in range(self.size):
-			self.board.append(raise ValueError ('todo'))
+def __init__(self):
+    for i in range(self.size):
+        self.board.append(Score("player",i))
 
-	# prints the leaderboard
-	def print_board(self):
-		raise ValueError ('todo')
+def print_board(self):
+    print("High Scores: ")
+    for entry in self.board:
+        player = entry.get_name()
+        score = entry.get_score()
+        print(player + ":", score)
 
 	# checks if given score should be in the leaderboard
-	def update(self, score):
-		raise ValueError ('todo')
+def update(self, score):
+    i = 0
+    Newscore = score.get_score()
+    Newname = score.get_name()
+    for entry in self.board:
+        if (score.get_score() >= entry.get_score()):
+            self.board[i].set_score(Newscore)
+            self.board[i].set_name(Newname)
+            break
+        i += 1
 
-	# inserts the score in the given position (assuming it's better or equal to the one in the given rank)
-	# moving everything below down a rank
-	def insert(self, score, i):
-		raise ValueError ('todo')
+	
