@@ -1,4 +1,16 @@
 class Scene(object):
+<<<<<<< HEAD
+=======
+
+	# This is wrong, should be the original, no need to change anything here
+	# ****************************************
+    def __init__(enter, action, exit_scene):
+        print ("This is the base scene class that's inherited by the other scenes, so it is not configured yet.")
+        print ("Subclass it and implement enter(), action(), and exit_scene() for each scene.")
+        exit(1)
+    # ****************************************
+
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
     # This works fine
     def enter(self):
     	print ("This is the base scene class that's inherited by the other scenes, so it is not configured yet.")
@@ -11,11 +23,19 @@ class Dorm(Scene):
 
     def enter(self):
 	    print ("You are in your dorm, and you here a knock on your door.")
+<<<<<<< HEAD
+=======
+	    raise ValueError ('Sorry for the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 	    return self.action()
 
     def action(self):
 	    print ("What will you do? Option 1: Go to your door. Option 2: lay down and nap. Please enter a number.")
+<<<<<<< HEAD
 	   # <-- change this
+=======
+	    raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 	    choice = input("> ")
 	    if choice == ':q':
 	        return self.exit_scene(choice)
@@ -25,6 +45,7 @@ class Dorm(Scene):
 	        choice = int(choice)
 	    except ValueError:
 	        print("That's not an int!")
+<<<<<<< HEAD
 	        return self.exit_scene(self.name)# <-- change this
 
 	    if int(choice) == 1:
@@ -34,6 +55,17 @@ class Dorm(Scene):
 	    elif int(choice) == 2:
 	        print ("You are taken by a mysterious force to an uknown location.")
 	       # <-- change this
+=======
+	        return self.exit_scene(self.name)
+
+	    if int(choice) == 1:
+	        print ("You are taken by a mysterious force to an unknown location.")
+	        raise ValueError ('Sorry for the error!')
+	        return self.exit_scene('basement') # raise ValueError ('todo')
+	    elif int(choice) == 2:
+	        print ("You are taken by a mysterious force to an uknown location.")
+	        raise ValueError ('Sorry for the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 	        return self.exit_scene('basement') # raise ValueError ('todo')
 	    else:
 	        print ("Not a valid option. Choose an option or type :q to end game") 
@@ -75,7 +107,11 @@ class Basement(Scene):
 			return self.exit_scene('death') # raise ValueError ('todo')
 		elif int(choice) == 3:
 			print("This is all just too much. Overwelmed, you decide to lay down and cry on the floor.")
+<<<<<<< HEAD
 			
+=======
+			raise ValueError ('Sorry for the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 			return self.exit_scene('hallway')
 		else:
 			print ("Not a valid option. Choose an option or type :q to end game") 
@@ -91,12 +127,20 @@ class Ectoplasm(Scene):
 
 	def enter(self):
 		print ("You have decided to explore where the ectoplasm leads. You see that the trail leads to the laundry room. It's quite ominous.")
+<<<<<<< HEAD
 		
+=======
+		raise ValueError ('Sorry about the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 		return self.action()
 	
 	def action(self):
 		print("What will you do? Option 1: Follow the ectoplasm. Option 2: Run in fear.")
+<<<<<<< HEAD
 		
+=======
+		raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 		choice = input("> ")
 		if choice == ':q':
 			return self.exit_scene(choice)
@@ -129,12 +173,20 @@ class Hallway(Scene):
 
 	def enter(self):
 		("After lying down and crying on the floor, wondering about the meaning of your life, you see a lost CAAP student walking towards you. He looks tired, overworked, and just really stressed.")
+<<<<<<< HEAD
 		
+=======
+		raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 		return self.action()
 
 	def action(self):
 		print("What will you do? Option 1: Ignore the student. Option 2: Follow the student. Option 3: Have the student follow you.")
+<<<<<<< HEAD
 		
+=======
+		raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 		choice = input("> ")
 		if choice == ':q':
 			return self.exit_scene(choice)
@@ -155,7 +207,11 @@ class Hallway(Scene):
 			return self.exit_scene('death') # raise ValueError ('todo')
 		elif int(choice) == 3:
 			print("You convince the student that you know how to get out of this situation. During your converstation, you spot a strange ectoplasm. You decide to follow it and abandon the CAAP student.")
+<<<<<<< HEAD
 			
+=======
+			raise ValueError ('Sorry for the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
 			return self.exit_scene('ectoplasm')
 		else:
 			print ("Not a valid option. Choose an option or type :q to end game") 
@@ -171,12 +227,20 @@ class Laundry_Room(Scene):
 
     def enter(self):
     	print ("You enter the laundry room, and inside you see a pile of cloths waiting to be washed. They smell pretty bad.")
+<<<<<<< HEAD
     	
+=======
+    	raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
     	return self.action()
 
     def action(self):
     	print("What will you do? Option 1: Do laundry. Option 2: Look through the clothes. Option 3: Ignore the pile of clothes and see what else is in the laundry room.")
+<<<<<<< HEAD
     	
+=======
+    	raise ValueError ('There was an error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
     	choice = input("> ")
     	if choice == ':q':
     		return self.exit_scene(choice)
@@ -189,11 +253,19 @@ class Laundry_Room(Scene):
 
     	if int(choice) == 1:
     		print ("You decide to do laundry. As you are washing the clothes, you see a ghOST OH MY GOD ITS COMING FOR YOU.")
+<<<<<<< HEAD
     		
     		return self.exit_scene('death') # raise ValueError ('todo')
     	elif int(choice) == 2:
     		print ("As you look through the clothes, you stumble upon Dean Boyer. He hands you a check covering four years of tuition. You are happy yet unsure of how to handle the future implications of this money.")
     		
+=======
+    		raise ValueError ('Sorry about the error!')
+    		return self.exit_scene('death') # raise ValueError ('todo')
+    	elif int(choice) == 2:
+    		print ("As you look through the clothes, you stumble upon Dean Boyer. He hands you a check covering four years of tuition. You are happy yet unsure of how to handle the future implications of this money.")
+    		raise ValueError ('Sorry for the error!')
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
     		return self.exit_scene('finished') # raise ValueError ('todo')
     	elif int(choice) == 3:
             print("As you look around, everything starts to fade from view. You wake up in your dorm, realizing this was all just a dream.")
@@ -217,4 +289,10 @@ class Finished(Scene):
     
     def exit_scene(self, outcome):
     	return outcome
+<<<<<<< HEAD
     
+=======
+    
+
+		
+>>>>>>> f77f076b3754bf28a92e7397d2820d3f2cccfe1b
