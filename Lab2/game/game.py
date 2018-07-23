@@ -21,8 +21,6 @@ def game_over(won):
     leaderboard.update(score)
     if (won):
         print("\nYou Won!") 
-    else:
-        print ("\nGame Over.")
     leaderboard.print_board()
 
 # initializes/updates global variables and introduces the game.
