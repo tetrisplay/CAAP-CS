@@ -11,7 +11,7 @@ def score():
         elif score == 2:
             grade = 'D':
         else:
-            grade = 'F':
+            grade = 'F'
         print("Your grade is", grade)
     else:
         print("Not a valid score")
