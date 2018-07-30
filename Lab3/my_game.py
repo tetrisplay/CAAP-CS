@@ -1,5 +1,6 @@
 # Christina Tetrick
 # Lab3
+#Heavy Collaboration w/ Kevin Song
 
 from random import randint
 
