@@ -260,6 +260,7 @@ pixels_8.append([2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2])
 
 # This function takes a pallet and pixel list (matrix) to draw the picture
 # You are to write this function
+#Help from Jesus
 def draw(pallet, pixels):
     myPen.setheading(0)
     for i in range(len(pixels)):
