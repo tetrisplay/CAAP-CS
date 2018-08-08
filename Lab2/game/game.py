@@ -18,7 +18,9 @@ def game_over(won):
     global name
     global moves
     score = Score(name, moves)
+    # ***************************************************
     # FIX You should only update if the won (goes inside the if statement)
+    # *************************************************
     leaderboard.update(score)
     if (won):
         print("\nYou Won!") 

@@ -1,0 +1,27 @@
+Assignemts			Score
+------------------------------
+Labs:
+lab0				51/60
+lab1				92/100
+lab2				TBD
+lab3				TBD
+lab4				TBD
+					
+hw:					
+Assign_00			37/40
+Assign_01			57/60
+					
+Quizzes:			
+Quiz_1				27/30
+Quiz_2				41/50
+Quiz_3				32/40
+Quiz_4				41/50
+Quiz_5				63/85
+					
+Projects:			
+Project_1			TBD
+------------------------------
+
+Current_Total		441/515
+
+Current_Grade		85.63%

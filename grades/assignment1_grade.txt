@@ -1,0 +1,34 @@
+Assignment 1 Grade:
+
+1. Hello world - 5/2 pts
+	--> Challege works: +2 pts
+	--> Challenge story: +1 pts
+2. Converter:  5/6 pts
+	--> F->C not F->C. -1 pts 
+3. Unit Conversion:  6/6 pts
+4. Slope: 10/10 pts
+5. Fibonacci Sequence: 6/6 pts
+6. Part 2 - Change: 15/20 pts
+	-->   File "change.py", line 4
+    		q = .25
+    		^
+			IndentationError: unexpected indent
+		-2 pts
+	--> Code compiles: -3 pts
+7. Part 4 - 10/10 pts
+
+57/60 Points total
+
+1. Hello world -
+2 pts, 2-4 + for challenge, 2 for attempt, 4 for a good story
+2. Converter:  6 pts
+3. Unit Conversion:  6 pts
+4. Slope: 10 pts
+5. Fibonacci Sequence: 6 pts
+6. Part 2 - Change: 20 pts, Challenge +10 pts
+7. Part 4 - 10 pts total: 3,3,4 
+
+60 Points total, 74 max with challenge points
+
+-15 if no README, -10 bad readme (only includes names and nothing else), -5 ok readme but still needs more instructions ---- you can decide on how much to take off after -5
+-5 if handed in after 10 pm deadline - even if it's 2 hours (the wiggle room is up to 2 hours, after 2 penalty happens)
